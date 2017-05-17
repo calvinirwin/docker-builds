@@ -1,0 +1,6 @@
+easy-smtp-server:
+    image: easy-smtp
+    command: service postfix start
+    ports:
+        - 25:25
+    tty: true

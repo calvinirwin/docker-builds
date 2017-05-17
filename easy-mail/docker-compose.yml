@@ -1,0 +1,4 @@
+easy-mail:
+    image: easy-mail
+    ports:
+        - "25:25"
